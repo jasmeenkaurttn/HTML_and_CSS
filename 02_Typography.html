@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headings, Paragraphs, Typography</title>
+    <style>
+        h1{
+            /* display: none; ---> This will also remove the spave of h1*/ 
+            /* visibility: hidden; --> There will be a space in the place of heading1 */
+            color: blue !important;
+            /* important means nothing matters, the color will be blue */
+        }
+
+        .hello {
+            color: violet;
+            margin-top: -30px;
+            margin-left: -30px;
+
+            /* Margin can have negative values, but PADDING can't */
+        }
+    </style>
 </head>
 <body>
     <!-- Headings-->
-    <h1>Heading 1</h1>
+    <h1 class="hello">Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
